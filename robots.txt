@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aysekaracasigorta.github.io/aysekaraca-sigorta/sitemap.xml
