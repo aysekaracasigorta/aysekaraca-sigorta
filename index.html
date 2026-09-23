@@ -2,141 +2,105 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Ayşe Karaca Sigorta - Vezirköprü'de güvenilir ve ulaşılabilir sigorta çözümleri.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ayşe Karaca Sigorta — Vezirköprü'de trafik, kasko, konut, sağlık, işyeri, tarım, DASK, hayvan, ferdi kaza, seyahat ve bireysel emeklilik sigortaları.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://aysekaracasigorta.github.io/aysekaraca-sigorta/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<title>Ayşe Karaca Sigorta | Vezirköprü Sigorta</title>
+<meta property="og:title" content="Ayşe Karaca Sigorta | Vezirköprü">
+<meta property="og:description" content="Güvenilir ve ulaşılabilir sigorta çözümleri.">
+<meta property="og:type" content="website">
+<title>Ayşe Karaca Sigorta | Vezirköprü</title>
 <style>
-:root{--navy:#071d38;--navy2:#0d3158;--gold:#b78935;--gold2:#d9b565;--cream:#f8f5ee;--text:#17283c;--muted:#647084;--green:#18a957}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.6}
-a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 22px}
-header{position:sticky;top:0;z-index:20;background:#fff;backdrop-filter:blur(12px);border-bottom:1px solid #e8dfcf}
-.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.brand{display:flex;align-items:center;gap:12px}.mark{font-family:Georgia,serif;font-size:38px;font-weight:700;color:var(--gold);line-height:1}.brand strong{font-family:Georgia,serif;font-size:21px;color:var(--navy);letter-spacing:.4px}.brand small{display:block;color:#657184;font-size:11px;letter-spacing:3px}
-.menu{display:flex;gap:25px;font-size:14px;font-weight:600}.menu a:hover{color:var(--gold)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:10px;padding:12px 18px;font-weight:700;border:1px solid transparent;transition:.2s}.btn-green{background:var(--green);color:#fff}.btn-gold{background:var(--gold);color:#fff}.btn-outline{border-color:#d8c69e;color:var(--navy);background:#fff}.btn:hover{transform:translateY(-1px)}
-.hero{min-height:570px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(5,24,47,.995) 0%,rgba(5,24,47,.985) 34%,rgba(5,24,47,.70) 58%,rgba(5,24,47,.08) 82%),url('vezirkopru-hero.png') center/cover no-repeat}
-.hero .wrap{width:100%}.eyebrow{color:var(--gold2);font-weight:800;letter-spacing:3px;font-size:13px}.hero h1{font-family:Georgia,serif;color:#fff;font-size:clamp(44px,5.4vw,70px);line-height:1.02;margin:15px 0 20px;max-width:650px;text-shadow:0 3px 18px rgba(0,0,0,.22)}.hero p{color:#f1f4f8;max-width:590px;font-size:19px;margin-bottom:28px}.actions{display:flex;flex-wrap:wrap;gap:12px}.trust{display:flex;flex-wrap:wrap;gap:22px;margin-top:30px;color:#fff;font-size:14px}.trust span{display:flex;align-items:center;gap:8px}
-section{padding:76px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 40px}.kicker{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase}.section-head h2{font-family:Georgia,serif;font-size:42px;line-height:1.1;color:var(--navy);margin:10px 0 14px}.section-head p{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:#fff;border:1px solid #ebe5da;border-radius:16px;padding:24px;box-shadow:0 8px 30px #17283c0b}.service .ico{font-size:28px}.service h3{margin:12px 0 5px;color:var(--navy);font-size:18px}.service p{margin:0;color:var(--muted);font-size:14px}
-.about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}.about h2{font-family:Georgia,serif;font-size:42px;color:var(--navy);line-height:1.1;margin:10px 0 18px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:25px}.check{display:flex;gap:10px}.check b{display:block;color:var(--navy)}.check span{color:var(--muted);font-size:13px}
-.quote{background:var(--navy);color:#fff}.quote .box{display:flex;justify-content:space-between;align-items:center;gap:30px}.quote h2{font-family:Georgia,serif;font-size:40px;line-height:1.1;margin:8px 0}.quote p{color:#dce6f0}
-.companies{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:30px}.company{padding:13px 20px;border:1px solid #e4dccd;border-radius:12px;font-weight:800;color:var(--navy);background:#fff}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-item{padding:22px;border:1px solid #ebe5da;border-radius:14px}.contact-item b{display:block;color:var(--navy);margin-bottom:4px}.contact-item span{color:var(--muted)}
-footer{background:#06182d;color:#dce6f0;padding:35px 0}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.foot strong{font-family:Georgia,serif;color:#fff;font-size:20px}
-.float{position:fixed;right:20px;bottom:20px;z-index:30;background:var(--green);color:#fff;padding:13px 18px;border-radius:50px;font-weight:800;box-shadow:0 10px 30px #0003}
-@media(max-width:900px){
-.menu{display:none}
-.grid{grid-template-columns:repeat(2,1fr)}
-.about-grid,.contact-grid{grid-template-columns:1fr}
-.quote .box{flex-direction:column;align-items:flex-start}
-.hero{min-height:610px;background-image:linear-gradient(90deg,rgba(5,24,47,.995) 0%,rgba(5,24,47,.94) 45%,rgba(5,24,47,.30) 78%),url('vezirkopru-hero.png');background-position:center;background-size:cover;padding:50px 0}
-.quick-grid{grid-template-columns:repeat(2,1fr)}
-.checks{grid-template-columns:1fr}
-}
-@media(max-width:560px){
-.grid{grid-template-columns:1fr}
-.hero{min-height:650px;padding:48px 0 55px;background-image:linear-gradient(90deg,rgba(5,24,47,.995) 0%,rgba(5,24,47,.93) 48%,rgba(5,24,47,.25) 85%),url('vezirkopru-hero.png');background-size:cover;background-position:58% center}
-.hero h1{font-size:43px;max-width:360px}
-.hero p{font-size:16px;line-height:1.65}
-.section-head h2,.about h2,.quote h2{font-size:34px}
-.nav{height:72px}
-.brand strong{font-size:17px}
-.brand small{font-size:9px}
-.brand .mark{font-size:32px}
-.nav>.btn{padding:10px 12px;font-size:13px}
-.quick-grid{grid-template-columns:repeat(2,1fr);gap:10px}
-.qimg{height:90px}
-.quick-card b{font-size:13px}
-.float{right:12px;bottom:12px}
-}
-
-.icon{width:42px;height:42px;display:inline-flex;align-items:center;justify-content:center;border-radius:12px;background:#f7f3ea;color:var(--gold);border:1px solid #eadfc9}.icon svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.quick-services{background:#fff;padding:22px 0 12px}
-.quick-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:12px}
-.quick-card{display:block;background:#fff;border:1px solid #e9e3d9;border-radius:10px;overflow:hidden;box-shadow:0 6px 20px rgba(23,40,60,.08);text-align:center;transition:.2s}
-.quick-card:hover{transform:translateY(-3px)}
-.qimg{height:88px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f8f5ee,#eef3f5)}.qimg .icon{width:48px;height:48px;border-radius:50%;background:#fff}
-.qcar{background:linear-gradient(135deg,#d9e7ee,#f7f3ea)}
-.qkasko{background:linear-gradient(135deg,#cbdbe8,#f0e7d6)}
-.qhome{background:linear-gradient(135deg,#eadbc7,#f8f4ed)}
-.qhealth{background:linear-gradient(135deg,#f0d8d8,#f6eee7)}
-.qwork{background:linear-gradient(135deg,#dce2e4,#f1eadf)}
-.qfarm{background:linear-gradient(135deg,#dbe8c9,#f1e6ce)}
-.qtravel{background:linear-gradient(135deg,#d5e2ee,#eee6d5)}
-.quick-card b{display:block;padding:10px 5px 2px;color:#142944;font-family:Georgia,serif;font-size:14px}
-.quick-card span{display:block;color:#b78935;font-size:20px;padding-bottom:7px}
+:root{--navy:#071d38;--navy2:#0c3158;--gold:#b88728;--gold2:#d9b45b;--green:#16a957;--ink:#15263b;--muted:#667085;--cream:#faf7f0;--line:#e7e0d4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}.wrap{max-width:1240px;margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid #eee7dc}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{display:flex;align-items:center;gap:12px}.logo-mark{position:relative;width:58px;height:58px;display:grid;place-items:center;font:700 38px Georgia;color:var(--navy);letter-spacing:-7px}.logo-mark:before{content:"";position:absolute;width:46px;height:46px;border:2px solid var(--gold);border-left-color:transparent;border-radius:50%;transform:rotate(-28deg)}.logo-mark b{color:var(--gold);margin-left:8px}.logo-name{font:700 22px Georgia;color:var(--navy);line-height:1}.logo-name small{display:block;margin-top:6px;font:600 10px Arial;letter-spacing:4px;color:#777}
+.menu{display:flex;gap:25px;font-weight:700;font-size:14px}.menu a:hover{color:var(--gold)}
+.actions-top{display:flex;gap:9px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid transparent;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-phone{background:var(--navy);color:#fff}.btn-wa{background:var(--green);color:#fff}.btn-gold{background:var(--gold);color:#fff}
+.hero{min-height:570px;background:linear-gradient(90deg,rgba(7,29,56,.94) 0%,rgba(7,29,56,.78) 34%,rgba(7,29,56,.22) 69%,rgba(7,29,56,.02) 100%),url('vezirkopru-hero.png') center/cover no-repeat;display:flex;align-items:center}
+.hero-inner{padding:62px 0 58px}.eyebrow{font-weight:900;letter-spacing:3px;color:#e7c16d;font-size:13px}.hero h1{font:700 clamp(48px,6vw,78px)/.97 Georgia;color:#fff;max-width:660px;margin:14px 0 20px}.hero h1 span{color:#d8ae50}.hero p{max-width:600px;color:#f4f6f8;font-size:18px;line-height:1.65;margin:0 0 26px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap}.hero-trust{display:flex;gap:28px;flex-wrap:wrap;color:#fff;margin-top:28px;font-weight:700;font-size:13px}.trust-item{display:flex;align-items:center;gap:8px}.trust-item svg{width:25px;height:25px;stroke:#fff;fill:none;stroke-width:1.8}
+.quick{margin-top:-1px;background:#fff;padding:18px 0 12px}.quick-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:10px}.quick-card{background:#fff;border:1px solid #e8e2d7;border-radius:12px;overflow:hidden;box-shadow:0 7px 22px #12253a12;transition:.25s}.quick-card:hover{transform:translateY(-5px);box-shadow:0 15px 30px #12253a1d}.quick-card img{width:100%;height:105px;display:block;object-fit:cover}.quick-card .qbody{padding:10px 10px 11px;text-align:center}.quick-card b{font:700 14px Georgia;color:var(--navy);display:block}.arrow{color:var(--gold);font-size:21px;line-height:1;margin-top:6px}
+section{padding:72px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 38px}.kicker{color:var(--gold);font-size:12px;font-weight:900;letter-spacing:2.5px;text-transform:uppercase}.section-head h2{font:700 43px/1.08 Georgia;color:var(--navy);margin:10px 0 13px}.section-head p{color:var(--muted);font-size:16px}
+.products{background:#fff}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product{border:1px solid #e8e2d7;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 9px 26px #12253a10;transition:.25s;position:relative}.product:hover{transform:translateY(-6px);box-shadow:0 18px 38px #12253a18}.product img{width:100%;height:165px;object-fit:cover;display:block}.product-body{padding:17px 18px 19px}.product h3{margin:0 0 7px;font:700 20px Georgia;color:var(--navy)}.product p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}.product .round{position:absolute;right:14px;top:140px;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:#fff;border:4px solid #fff;font-size:22px}
+.about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about-photo{border-radius:22px;overflow:hidden;box-shadow:0 20px 45px #12253a20}.about-photo img{width:100%;height:390px;object-fit:cover}.about h2{font:700 43px/1.05 Georgia;color:var(--navy);margin:9px 0 17px}.about p{color:var(--muted);font-size:16px}.benefits{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px}.benefit{display:flex;gap:13px}.benefit-icon{width:45px;height:45px;border-radius:12px;background:#fff1d6;color:var(--gold);display:grid;place-items:center;flex:0 0 auto}.benefit-icon svg{width:25px;height:25px;stroke:currentColor;fill:none;stroke-width:1.7}.benefit b{display:block;color:var(--navy);margin-bottom:3px}.benefit span{font-size:13px;color:var(--muted)}
+.companies{padding:52px 0;background:#fff}.company-row{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:15px}.company{border:1px solid #e7e0d4;background:#fff;border-radius:12px;padding:13px 19px;font-weight:900;color:var(--navy);font-size:18px}.company:nth-child(2){color:#1c4b9b}.company:nth-child(3){color:#198d66}.company:nth-child(4){color:#233d78}.company:nth-child(5){color:#198c77}
+.cta{background:var(--navy);color:#fff;overflow:hidden}.cta-inner{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px}.cta-photo{height:250px;border-radius:18px;background:url('https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=85') center/cover}.cta h2{font:700 42px/1.08 Georgia;margin:7px 0 14px}.cta p{color:#dbe5ef;max-width:570px}
+.contact{background:#fff}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact-card{border:1px solid var(--line);border-radius:16px;padding:24px}.contact-card b{display:block;color:var(--navy);font-size:18px;margin-bottom:6px}.contact-card span{color:var(--muted)}
+footer{background:#06182d;color:#dce6f0;padding:30px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px}.foot strong{font:700 21px Georgia;color:#fff}
+.float{position:fixed;right:18px;bottom:18px;z-index:60;background:var(--green);color:#fff;padding:13px 18px;border-radius:50px;font-weight:900;box-shadow:0 10px 30px #0003}
+@media(max-width:1000px){.menu{display:none}.quick-grid{grid-template-columns:repeat(4,1fr)}.product-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.cta-inner{grid-template-columns:1fr}.about-photo img{height:300px}.actions-top .btn-phone{display:none}}
+@media(max-width:600px){.nav{height:72px}.logo-mark{width:46px;height:46px;font-size:31px}.logo-name{font-size:17px}.logo-name small{font-size:8px}.actions-top .btn{padding:10px 12px;font-size:12px}.hero{min-height:650px;background:linear-gradient(90deg,rgba(7,29,56,.97),rgba(7,29,56,.75)),url('vezirkopru-hero.png') center/cover}.hero-inner{padding:55px 0}.hero h1{font-size:46px}.hero p{font-size:16px}.hero-trust{gap:13px}.quick-grid{grid-template-columns:repeat(2,1fr)}.quick-card img{height:105px}.product-grid{grid-template-columns:1fr}.section-head h2,.about h2,.cta h2{font-size:34px}.benefits{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.foot{flex-direction:column;align-items:flex-start}.float{right:10px;bottom:10px}}
 </style>
 </head>
 <body>
 <header><div class="wrap nav">
-<a class="brand" href="#anasayfa"><div class="mark">AK</div><div><strong>AYŞE KARACA</strong><small>SİGORTA</small></div></a>
-<nav class="menu"><a href="#hizmetler">Hizmetler</a><a href="#hakkimizda">Hakkımızda</a><a href="#nedenbiz">Neden Biz?</a><a href="#iletisim">İletişim</a></nav>
-<a class="btn btn-green" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">WhatsApp'tan Teklif Al</a>
+<a class="logo" href="#anasayfa"><div class="logo-mark">A<b>K</b></div><div class="logo-name">AYŞE KARACA<small>SİGORTA</small></div></a>
+<nav class="menu"><a href="#anasayfa">Ana Sayfa</a><a href="#hakkimizda">Hakkımızda</a><a href="#hizmetler">Sigorta Ürünleri</a><a href="#nedenbiz">Neden Biz?</a><a href="#iletisim">İletişim</a></nav>
+<div class="actions-top"><a class="btn btn-phone" href="tel:+905465582130">☎ 0546 558 21 30</a><a class="btn btn-wa" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">◉ WhatsApp'tan Teklif Al</a></div>
 </div></header>
 
 <main>
-<section id="anasayfa" class="hero"><div class="wrap">
+<section id="anasayfa" class="hero"><div class="wrap hero-inner">
 <div class="eyebrow">VEZİRKÖPRÜ'DE</div>
-<h1>Güveninizi geleceğe taşıyoruz.</h1>
-<p>Ayşe Karaca Sigorta olarak bireysel ve kurumsal müşterilerimize ihtiyaçlarına uygun, güvenilir ve ulaşılabilir sigorta çözümleri sunuyoruz.</p>
-<div class="actions"><a class="btn btn-green" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">💬 WhatsApp'tan Teklif Al</a><a class="btn btn-outline" href="tel:+903626472550">☎ 0362 647 25 50</a></div>
-<div class="trust"><span>✓ Güvenilir hizmet</span><span>✓ Hızlı teklif</span><span>✓ Satış sonrası destek</span><span>✓ İhtiyaca uygun çözümler</span></div>
+<h1>Güveniniz <span>Geleceğinize</span><br>Yön Veriyor</h1>
+<p>Ayşe Karaca Sigorta olarak bireysel ve kurumsal müşterilerimize en uygun, güvenilir ve ulaşılabilir sigorta çözümlerini sunuyoruz.</p>
+<div class="hero-buttons"><a class="btn btn-wa" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">◉ WhatsApp'tan Teklif Al →</a><a class="btn" style="background:#fff;color:var(--navy)" href="tel:+905465582130">☎ 0546 558 21 30</a></div>
+<div class="hero-trust"><span class="trust-item">✓ Güvenilir Hizmet</span><span class="trust-item">♟ İhtiyacınıza Uygun Çözümler</span><span class="trust-item">🤝 Satış Sonrası Destek</span><span class="trust-item">☆ Hızlı Teklif & Kolay Ulaşım</span></div>
 </div></section>
 
-<section class="quick-services"><div class="wrap"><div class="quick-grid">
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M5 16l1.5-6h11l1.5 6"/><path d="M7 10l1.2-3h7.6l1.2 3"/><circle cx="8" cy="17" r="1.5"/><circle cx="16" cy="17" r="1.5"/></svg></span></div><b>Trafik Sigortası</b><span>→</span></a>
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 15l1.5-6h13L20 15"/><path d="M7 9l1-3h8l1 3"/><circle cx="8" cy="16.5" r="1.5"/><circle cx="16" cy="16.5" r="1.5"/></svg></span></div><b>Kasko Sigortası</b><span>→</span></a>
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M3.5 11.5L12 4l8.5 7.5"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M9 20v-5h6v5"/></svg></span></div><b>Konut Sigortası</b><span>→</span></a>
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.3-7-9a4 4 0 0 1 7-2.4A4 4 0 0 1 19 11c0 4.7-7 9-7 9z"/></svg></span></div><b>Sağlık Sigortası</b><span>→</span></a>
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M5 20V7h9v13"/><path d="M14 10h5v10"/><path d="M8 10h3M8 13h3M8 16h3M16 13h1M16 16h1"/></svg></span></div><b>İşyeri Sigortası</b><span>→</span></a>
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 19c3-5 5-9 8-14"/><path d="M9 8c3 0 5 2 5 5-3 0-5-2-5-5z"/><path d="M12 12c3-1 6 0 7 3-3 1-6 0-7-3z"/></svg></span></div><b>Tarım Sigortası</b><span>→</span></a>
-<a class="quick-card" href="#hizmetler"><div class="qimg"><span class="icon"><svg viewBox="0 0 24 24"><path d="M3 13h12"/><path d="M15 9l5 4-5 4"/><path d="M5 18l-2 2M19 18l2 2"/></svg></span></div><b>Seyahat Sigortası</b><span>→</span></a>
+<section class="quick"><div class="wrap quick-grid">
+<a class="quick-card" href="#trafik"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Trafik Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#kasko"><img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Kasko Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#konut"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Konut Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#saglik"><img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Sağlık Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#isyeri"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>İşyeri Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#tarim"><img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Tarım Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#seyahat"><img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Seyahat Sigortası</b><div class="arrow">→</div></div></a>
+<a class="quick-card" href="#diger"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=85"><div class="qbody"><b>Diğer Çözümler</b><div class="arrow">→</div></div></a>
+</div></section>
+
+<section id="hizmetler" class="products"><div class="wrap">
+<div class="section-head"><div class="kicker">Sigorta Ürünleri</div><h2>İhtiyacınıza uygun güvence</h2><p>Araç, konut, sağlık, işyeri, tarım, seyahat ve diğer alanlarda ihtiyacınıza uygun seçenekleri birlikte değerlendirelim.</p></div>
+<div class="product-grid">
+<article id="trafik" class="product"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Trafik Sigortası</h3><p>Zorunlu trafik sigortası için hızlı teklif.</p></div></article>
+<article id="kasko" class="product"><img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Kasko Sigortası</h3><p>Aracınız için ihtiyacınıza uygun güvence seçenekleri.</p></div></article>
+<article id="konut" class="product"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Konut Sigortası</h3><p>Eviniz ve eşyalarınız için koruma seçenekleri.</p></div></article>
+<article id="saglik" class="product"><img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Sağlık Sigortası</h3><p>Tamamlayıcı ve özel sağlık çözümleri.</p></div></article>
+<article id="isyeri" class="product"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>İşyeri Sigortası</h3><p>İşyeriniz ve faaliyetleriniz için seçenekler.</p></div></article>
+<article id="tarim" class="product"><img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Tarım Sigortaları</h3><p>Ürünleriniz ve tarımsal faaliyetleriniz için seçenekler.</p></div></article>
+<article id="seyahat" class="product"><img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Seyahat Sigortası</h3><p>Yolculuklarınızda ihtiyaç duyabileceğiniz güvenceler.</p></div></article>
+<article id="diger" class="product"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Diğer Sigortalar</h3><p>DASK, hayvan, ferdi kaza ve bireysel emeklilik çözümleri.</p></div></article>
+<article class="product"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>DASK</h3><p>Zorunlu deprem sigortası için teklif seçenekleri.</p></div></article>
+<article class="product"><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Hayvan Sigortaları</h3><p>Hayvancılık faaliyetleriniz için uygun sigorta seçenekleri.</p></div></article>
+<article class="product"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Ferdi Kaza Sigortası</h3><p>Beklenmedik kazalara karşı güvence seçenekleri.</p></div></article>
+<article class="product"><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85"><div class="round">→</div><div class="product-body"><h3>Bireysel Emeklilik</h3><p>Geleceğe yönelik birikim ve emeklilik seçenekleri.</p></div></article>
 </div></div></section>
-
-<section id="hizmetler"><div class="wrap">
-<div class="section-head"><div class="kicker">Hizmetlerimiz</div><h2>İhtiyacınıza uygun güvence</h2><p>Araç, konut, sağlık, tarım, işyeri ve seyahat gibi farklı alanlarda ihtiyaçlarınıza uygun sigorta seçenekleri sunuyoruz.</p></div>
-<div class="grid">
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M5 16l1.5-6h11l1.5 6"/><path d="M7 10l1.2-3h7.6l1.2 3"/><circle cx="8" cy="17" r="1.5"/><circle cx="16" cy="17" r="1.5"/></svg></span></div><h3>Trafik Sigortası</h3><p>Zorunlu trafik sigortası için hızlı teklif.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 15l1.5-6h13L20 15"/><path d="M7 9l1-3h8l1 3"/><circle cx="8" cy="16.5" r="1.5"/><circle cx="16" cy="16.5" r="1.5"/></svg></span></div><h3>Kasko Sigortası</h3><p>Aracınızı farklı risklere karşı güvence altına alın.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M3.5 11.5L12 4l8.5 7.5"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M9 20v-5h6v5"/></svg></span></div><h3>Konut Sigortası</h3><p>Eviniz ve eşyalarınız için koruma seçenekleri.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.3-7-9a4 4 0 0 1 7-2.4A4 4 0 0 1 19 11c0 4.7-7 9-7 9z"/></svg></span></div><h3>Tamamlayıcı Sağlık</h3><p>Sağlık giderleriniz için ek güvence seçenekleri.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M8 5v5a4 4 0 0 0 8 0V5"/><path d="M8 5H6M18 5h-2"/><path d="M12 14v5"/><path d="M9 19h6"/></svg></span></div><h3>Özel Sağlık Sigortası</h3><p>İhtiyaçlarınıza uygun özel sağlık çözümleri.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M3.5 11.5L12 4l8.5 7.5"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M12 14v3M10.5 15.5h3"/></svg></span></div><h3>DASK</h3><p>Deprem riskine karşı zorunlu güvence.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M5 20V7h9v13"/><path d="M14 10h5v10"/><path d="M8 10h3M8 13h3M8 16h3M16 13h1M16 16h1"/></svg></span></div><h3>İşyeri Sigortası</h3><p>İşyeriniz ve faaliyetleriniz için koruma seçenekleri.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 19c3-5 5-9 8-14"/><path d="M9 8c3 0 5 2 5 5-3 0-5-2-5-5z"/><path d="M12 12c3-1 6 0 7 3-3 1-6 0-7-3z"/></svg></span></div><h3>Tarım Sigortaları</h3><p>Ürünleriniz, tarlanız ve tarımsal faaliyetleriniz için seçenekler.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M5 14h10l2-3 2 2v4h-3"/><path d="M6 17v2M15 17v2M8 14l-2-3M18 12l2-2"/></svg></span></div><h3>Hayvan Sigortaları</h3><p>Hayvancılık faaliyetleri için uygun sigorta seçenekleri.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 21s7-3.5 7-9V5l-7-2-7 2v7c0 5.5 7 9 7 9z"/><path d="M9 12l2 2 4-4"/></svg></span></div><h3>Ferdi Kaza Sigortası</h3><p>Beklenmedik kazalara karşı güvence seçenekleri.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M3 13l18-6-7 7-2 7-3-6-6-2z"/></svg></span></div><h3>Seyahat Sigortası</h3><p>Yolculuklarınızda ihtiyaç duyabileceğiniz güvenceler.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3.5 20c.5-3.5 2.5-5 5.5-5s5 1.5 5.5 5M14 15c3 0 5 1.3 5.5 5"/></svg></span></div><h3>Bireysel Emeklilik</h3><p>Geleceğe yönelik birikim ve emeklilik seçenekleri.</p></div>
-</div>
-</div></section>
 
 <section id="hakkimizda" class="about"><div class="wrap about-grid">
-<div><div class="kicker">Hakkımızda</div><h2>Güven, şeffaflık ve müşteri memnuniyeti</h2><p>Ayşe Karaca Sigorta olarak müşterilerimizin ihtiyaçlarını doğru analiz ederek kendilerine uygun sigorta çözümlerine ulaşmalarına yardımcı oluyoruz. Amacımız, poliçe düzenlemekle sınırlı kalmadan ihtiyaç duyduğunuzda ulaşabileceğiniz bir sigorta danışmanı olmaktır.</p><a class="btn btn-gold" href="#iletisim">Bize Ulaşın →</a></div>
-<div class="card"><h3>Kuruluşumuz</h3><p>Kuruluş yılı ve acentemizin hikâyesi bu alana eklenecek. Bilgileri verdiğinizde bölümü profesyonel bir metinle güncelleyeceğiz.</p><div class="check"><span>✓</span><div><b>Vezirköprü'den hizmet</b><span>Yerel ihtiyaçları bilen, ulaşılabilir danışmanlık.</span></div></div><div class="check" style="margin-top:16px"><span>✓</span><div><b>Hızlı iletişim</b><span>Teklif ve bilgi için WhatsApp üzerinden kolayca ulaşın.</span></div></div></div>
-</div></section>
+<div class="about-photo"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Modern sigorta ofisi"></div>
+<div><div class="kicker">Neden Biz?</div><h2>Güven, deneyim ve müşteri memnuniyeti</h2><p>İhtiyaçlarınızı doğru anlayarak size uygun sigorta seçeneklerine ulaşmanız için yanınızdayız. Teklif sürecinden poliçe sonrasına kadar ulaşılabilir bir hizmet anlayışı sunuyoruz.</p>
+<div class="benefits">
+<div class="benefit"><div class="benefit-icon">✓</div><div><b>Güvenilir danışmanlık</b><span>İhtiyacınıza göre seçenekleri birlikte değerlendirelim.</span></div></div>
+<div class="benefit"><div class="benefit-icon">◉</div><div><b>Müşteri odaklı yaklaşım</b><span>Size uygun çözümleri anlaşılır biçimde sunuyoruz.</span></div></div>
+<div class="benefit"><div class="benefit-icon">▤</div><div><b>Geniş ürün yelpazesi</b><span>Farklı sigorta branşlarında teklif seçenekleri.</span></div></div>
+<div class="benefit"><div class="benefit-icon">☎</div><div><b>Hızlı destek</b><span>Satış öncesi ve sonrası yanınızdayız.</span></div></div>
+</div></div></div></section>
 
-<section id="nedenbiz"><div class="wrap"><div class="section-head"><div class="kicker">Neden Ayşe Karaca Sigorta?</div><h2>Poliçeden daha fazlası</h2><p>Doğru ürünü seçmenize yardımcı olmak ve ihtiyaç duyduğunuzda yanınızda olmak için çalışıyoruz.</p></div>
-<div class="grid">
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M8 12l3 3a2 2 0 0 0 3-3l-2-2"/><path d="M5 10l3-3 4 2M19 10l-3-3-4 2"/></svg></span></div><h3>Müşteri odaklı hizmet</h3><p>İhtiyacınızı dinleyerek seçenekleri birlikte değerlendiriyoruz.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M13 2L5 13h6l-1 9 8-11h-6l1-9z"/></svg></span></div><h3>Hızlı teklif</h3><p>Teklif süreçlerinde pratik ve anlaşılır iletişim.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></svg></span></div><h3>Şeffaf danışmanlık</h3><p>Poliçe kapsamını anlaşılır şekilde aktarmaya önem veriyoruz.</p></div>
-<div class="card service"><div class="ico"><span class="icon"><svg viewBox="0 0 24 24"><path d="M6 4l3 2-2 4c1 2 3 4 5 5l4-2 2 3-2 3c-7 0-12-5-12-12z"/></svg></span></div><h3>Satış sonrası destek</h3><p>Poliçeniz sonrasında da ulaşabileceğiniz iletişim.</p></div>
-</div>
-<div class="companies"><div class="company">AKSigorta</div><div class="company">AXA Sigorta</div><div class="company">HDI Sigorta</div><div class="company">QUICK Sigorta</div><div class="company">NEOVA Sigorta</div></div>
-</div></section>
+<section class="companies"><div class="wrap"><div class="section-head" style="margin-bottom:20px"><div class="kicker">Acentesi Olduğumuz Sigorta Şirketleri</div></div><div class="company-row"><div class="company">AKSigorta</div><div class="company">AXA</div><div class="company">HDI</div><div class="company">QUICK</div><div class="company">NEOVA</div></div></div></section>
 
-<section class="quote"><div class="wrap box"><div><div class="kicker">Sizin için</div><h2>Bugünü koruyun,<br>yarına güvenle bakın.</h2><p>İhtiyacınız olan sigorta çözümü için bize ulaşın.</p></div><a class="btn btn-green" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">💬 WhatsApp'tan Teklif Al</a></div></section>
+<section id="nedenbiz" class="cta"><div class="wrap cta-inner"><div class="cta-photo"></div><div><div class="kicker">SİZİN İÇİN</div><h2>Bugünü koruyun,<br>yarına güvenle bakın.</h2><p>Sigorta ihtiyacınız için hızlıca iletişime geçin. Teklifinizi birlikte değerlendirelim.</p><a class="btn btn-wa" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">◉ WhatsApp'tan Teklif Al →</a></div></div></section>
 
-<section id="iletisim"><div class="wrap"><div class="section-head"><div class="kicker">İletişim</div><h2>Bize ulaşın</h2><p>Teklif ve bilgi almak için telefon veya WhatsApp üzerinden iletişime geçebilirsiniz.</p></div>
-<div class="contact-grid">
-<div class="contact-item"><b>📱 Cep Telefonu / WhatsApp</b><a href="tel:+905465582130">0546 558 21 30</a></div>
-<div class="contact-item"><b>☎️ Sabit Telefon</b><a href="tel:+903626472550">0362 647 25 50</a></div>
-<div class="contact-item"><b>📍 Adres</b><span>Atatürk İş Merkezi, Kat: 2 No: 41/4<br>Vezirköprü / Samsun</span></div>
-<div class="contact-item"><b>💬 Hızlı teklif</b><a class="btn btn-green" style="margin-top:8px" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">WhatsApp'a Git</a></div>
+<section id="iletisim" class="contact"><div class="wrap"><div class="section-head"><div class="kicker">İletişim</div><h2>Size bir mesaj kadar yakınız</h2></div><div class="contact-grid">
+<div class="contact-card"><b>📞 0546 558 21 30</b><span>Telefon ve WhatsApp</span></div>
+<div class="contact-card"><b>☎ 0362 647 25 50</b><span>Ofis telefonu</span></div>
+<div class="contact-card"><b>📍 Atatürk İş Merkezi, Kat: 2 No: 41/4</b><span>Vezirköprü / Samsun</span></div>
 </div></div></section>
 </main>
+<footer><div class="wrap foot"><strong>AK | AYŞE KARACA SİGORTA</strong><span>Güveniniz bizim önceliğimiz.</span></div></footer>
+<a class="float" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">◉ WhatsApp'tan Teklif Al</a>
 
-<footer><div class="wrap foot"><div><strong>Ayşe Karaca Sigorta</strong><div>Güveniniz bizim önceliğimiz.</div></div><div>© 2026 Ayşe Karaca Sigorta</div></div></footer>
-<a class="float" href="https://wa.me/905465582130?text=Merhaba%20Ay%C5%9Fe%20Karaca%20Sigorta%2C%20sigorta%20teklifi%20almak%20istiyorum." target="_blank">💬 WhatsApp</a>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"InsuranceAgency","name":"Ayşe Karaca Sigorta","url":"https://aysekaracasigorta.github.io/aysekaraca-sigorta/","telephone":"+905465582130","address":{"@type":"PostalAddress","streetAddress":"Atatürk İş Merkezi, Kat: 2 No: 41/4","addressLocality":"Vezirköprü","addressRegion":"Samsun","addressCountry":"TR"},"areaServed":{"@type":"City","name":"Vezirköprü"}}
+</script>
 </body></html>
